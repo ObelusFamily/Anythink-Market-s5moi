@@ -10,4 +10,5 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+1. To run both backend and frontend, run `docker-compose -f docker-compose.yml up`. requires `docker-compose` which can be downloaded using brew.
+2. Open `localhost:3001`
